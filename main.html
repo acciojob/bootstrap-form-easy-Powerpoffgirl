@@ -12,30 +12,30 @@
 		<h1 class="text-center m-4">Internship Form</h1>
 		<div class="row1 d-flex"> 
 			<div class=" w-100 m-2">
-				<label for="first-name-input" class="form-label">First Name</label>
-				<input type="text" class="form-control" id="first-name-input" aria-describedby="emailHelp">
+				<label for="first-name-input" class="form-label" required>First Name</label>
+				<input type="text" class="form-control" id="first-name-input">
 				<div id="alert-text" style="color: red;">First name required!</div>
 			  </div>
 			<div class=" w-100 m-2">
-			  <label for="last-name-input" class="form-label">Last Name</label>
-			  <input type="text" class="form-control" id="last-name-input" aria-describedby="emailHelp">
+			  <label for="last-name-input" class="form-label" required>Last Name</label>
+			  <input type="text" class="form-control" id="last-name-input">
 			  <div id="alert-text" style="color: red;">Last name required!</div> 
 			</div>
 			<div class=" w-100 m-2">
-				<label for="exampleInputEmail1" class="form-label">Email Address</label>
-				<input type="email" class="form-control" placeholder="xyz@abc.com" id="exampleInputEmail1" aria-describedby="emailHelp">
+				<label for="exampleInputEmail1" class="form-label" required>Email Address</label>
+				<input type="email" class="form-control" placeholder="xyz@abc.com" id="exampleInputEmail1">
 				<div id="alert-text" style="color: red;">Email required!</div>
 			  </div>
 		</div>
 		<div class="row2 d-flex">
 			<div class="w-100 m-2">
-				<label for="college" class="form-label">College</label>
+				<label for="college" class="form-label" required>College</label>
 				<input type="text" class="form-control" id="college">
 				<div id="alert-text" style="color: red;">Please provide a valid college.</div>
 			</div>
 			<div class="w-50 m-2">
 				<label for="grad-year-select">Graduation Year</label>
-					<select class="form-select mt-2" id="grad-year-select" name="graduationYear">	
+					<select class="form-select mt-2" id="grad-year-select" name="graduationYear" required>	
 					<option selected>Choose...</option>
 					<option value="1">2020</option>
 					<option value="2">2021</option>
@@ -45,8 +45,8 @@
 				  <div id="alert-text" style="color: red;">Please select a valid Gradutaion Year.</div>
 			</div>
 			<div class="w-50 m-2">
-					<label for="rollno" class="form-label">Roll No.</label>
-					<input type="number" class="form-control" id="rollno" aria-describedby="emailHelp">
+					<label for="roll-no-input" class="form-label">Roll No.</label>
+					<input type="number" class="form-control" id="roll-no-input">
 					<div id="alert-text" style="color: red;">Please provide a valid Roll no.</div>
 			</div>
 		</div>
