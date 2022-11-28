@@ -31,7 +31,7 @@
 			<div class="w-100 m-2">
 				<label for="college-input" class="form-label">College</label>
 				<input type="text" class="form-control" id="college-input" required>
-				<div id="alert-text" style="color: red;">Please provide a valid college.</div>
+				<div id="alert-text" class="invalid-feedback" style="color: red;">Please provide a valid college.</div>
 			</div>
 			<div class="w-50 m-2">
 				<label for="grad-year-select">Graduation Year</label>
@@ -42,19 +42,19 @@
 					<option value="3">2022</option>
 					<option value="4">2023</option>
 				  </select>
-				  <div id="alert-text" style="color: red;">Please select a valid Gradutaion Year.</div>
+				  <div id="alert-text" class="invalid-feedback" style="color: red;">Please select a valid Gradutaion Year.</div>
 			</div>
 			<div class="w-50 m-2">
 					<label for="roll-no-input" class="form-label">Roll No.</label>
-					<input type="number" class="form-control" id="roll-no-input" required>
-					<div id="alert-text" style="color: red;">Please provide a valid Roll no.</div>
+					<input type="text" class="form-control" id="roll-no-input" required>
+					<div id="alert-text" class="invalid-feedback"style="color: red;">Please provide a valid Roll no.</div>
 			</div>
 		</div>
 
 		<div class="mb-3 form-check m-2">
-		  <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
-		  <label class="form-check-label" for="exampleCheck1">Agree to terms and conditions</label>
-		  <div id="alert-text" style="color: red;">You must agree before submitting.</div>
+		  <label class="form-check-label" for="conditions-checkbox">Agree to terms and conditions</label>
+		  <input type="checkbox" class="form-check-input" id="conditions-checkbox" required>
+		  <div id="alert-text" class="invalid-feedback" style="color: red;">You must agree before submitting.</div>
 		</div>
 		<button type="submit" class="btn btn-primary m-2">Submit Form</button>
 	  </form>
