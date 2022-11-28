@@ -12,25 +12,25 @@
 		<h1 class="text-center m-4">Internship Form</h1>
 		<div class="row1 d-flex"> 
 			<div class=" w-100 m-2">
-				<label for="first-name-input" class="form-label" required>First Name</label>
-				<input type="text" class="form-control" id="first-name-input">
-				<div id="alert-text" style="color: red;">First name required!</div>
+				<label for="first-name-input" class="form-label">First Name</label>
+				<input type="text" class="form-control" id="first-name-input" required>
+				<div id="alert-text" class="invalid-feedback"style="color: red;">First name required!</div>
 			  </div>
 			<div class=" w-100 m-2">
-			  <label for="last-name-input" class="form-label" required>Last Name</label>
-			  <input type="text" class="form-control" id="last-name-input">
+			  <label for="last-name-input" class="form-label">Last Name</label>
+			  <input type="text" class="form-control" id="last-name-input" required>
 			  <div id="alert-text" style="color: red;">Last name required!</div> 
 			</div>
 			<div class=" w-100 m-2">
-				<label for="exampleInputEmail1" class="form-label" required>Email Address</label>
-				<input type="email" class="form-control" placeholder="xyz@abc.com" id="exampleInputEmail1">
+				<label for="email-input" class="form-label">Email Address</label>
+				<input type="email" class="form-control" placeholder="xyz@abc.com" id="email-input" required>
 				<div id="alert-text" style="color: red;">Email required!</div>
 			  </div>
 		</div>
 		<div class="row2 d-flex">
 			<div class="w-100 m-2">
-				<label for="college" class="form-label" required>College</label>
-				<input type="text" class="form-control" id="college">
+				<label for="college" class="form-label">College</label>
+				<input type="text" class="form-control" id="college" required>
 				<div id="alert-text" style="color: red;">Please provide a valid college.</div>
 			</div>
 			<div class="w-50 m-2">
@@ -46,13 +46,13 @@
 			</div>
 			<div class="w-50 m-2">
 					<label for="roll-no-input" class="form-label">Roll No.</label>
-					<input type="number" class="form-control" id="roll-no-input">
+					<input type="number" class="form-control" id="roll-no-input" required>
 					<div id="alert-text" style="color: red;">Please provide a valid Roll no.</div>
 			</div>
 		</div>
 
 		<div class="mb-3 form-check m-2">
-		  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+		  <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
 		  <label class="form-check-label" for="exampleCheck1">Agree to terms and conditions</label>
 		  <div id="alert-text" style="color: red;">You must agree before submitting.</div>
 		</div>
